@@ -9,3 +9,10 @@
 9. An error occurs. Since it defined with `let`, `i` has block scope and does not exist outside the for-loop.
 10. 3 is printed. The length of `prices` is 3. 
 11. [50, 100, 150] is returned. This function iterates through an input list and applies the input discount to every value within it but does not round to the nearest whole number. The `const` keyword only prevents a variable from being reassigned so modifying the assigned array is ok. 
+12. a. `student.name` 
+-  b. `student['Grad Year']`
+-  c. `student.greeting()`
+-  d. `student['Favorite Teacher'].name`
+-  e. `student.courseLoad[0]`
+13. a. 32. `'3'` is a string and `2` is an integer so they are concatenated. 
+- b. 
