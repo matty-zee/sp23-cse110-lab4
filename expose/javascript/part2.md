@@ -14,5 +14,18 @@
 -  c. `student.greeting()`
 -  d. `student['Favorite Teacher'].name`
 -  e. `student.courseLoad[0]`
-13. a. 32. `'3'` is a string and `2` is an integer so they are concatenated. 
-- b. 
+13. a. '32'. `'3'` is a string and `2` is an integer so they are concatenated. 
+- b. 1. `-` is iterpreted as an arithmetic operation.
+- c. 3. `null`'s numerical value is 0.
+- d. '3null'. Since `'3'` is a string, `+` is concatenation.
+- e. 4. `true`'s numerial value is 1. 
+- f. 0. `false` and `null`'s numerical values are both 0.
+- g. `3undefined`. Since `'3'` is a string, `+` is concatenation.
+- h. NaN. The result is undefined because `-` is interpreted as an arithmetic operation and subtracting undefined results in an undefined value. 
+14. a. True. When comparing strings to numbers, strings are parsed as integers. If the string isn't a number, its integer value is NaN.
+- b. False. 2 is compare to the numerical value of the first character of `'12'`, which is 1. 
+- c. True. '2' is converted to a number. 
+- d. False. `===` is strict comparison so it checks the value and type to see if LHS and RHS are the same. 
+- e. False. The numerical value of `true` is 1. 
+- f. True. LHS and RHS are both boolean and parsing any number greater than 0 as a boolean returns `true`. 
+15. `==` only checks if values are the same after type converting when applicable. `===` does not do any type conversions and checks both sides values and types are the same. 
