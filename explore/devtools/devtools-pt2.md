@@ -1,0 +1,2 @@
+1. The bug is that `num1` and `num2` are both typed as strings. When `result = num1 + num2` is executed, they are not added, they are concatenated. 
+2. To fix the bug, do parse `num1` and `num2` as ints.  
