@@ -29,3 +29,9 @@
 - e. False. The numerical value of `true` is 1. 
 - f. True. LHS and RHS are both boolean and parsing any number greater than 0 as a boolean returns `true`. 
 15. `==` only checks if values are the same after type converting when applicable. `===` does not do any type conversions and checks both sides values and types are the same. 
+17. The function call will return [2,4,6]. This happens as the `callback` parameter is a function. In this case, `callback` is the `doSomething` function which doubles the input parameter. Since the input parameter is an array of numbers, all the values within it are doubled. 
+19. 
+1
+4
+3
+2 //prints out 1 second after 1, 4 and 3. 
